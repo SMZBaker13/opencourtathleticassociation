@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Open Court Athletic Association</title>
+  <title>About | Open Court Athletic Association</title>
   <style>
     * {
       box-sizing: border-box;
@@ -53,10 +53,25 @@
 
     h1 {
       font-size: 2rem;
-      margin-bottom: 16px;
+      margin-bottom: 24px;
     }
 
-    p {
+    .about-section {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .about-section img.about-photo {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .about-text p {
       line-height: 1.6;
       margin-bottom: 16px;
     }
@@ -80,7 +95,7 @@
       alt="Open Court Athletic Association Logo"
     />
     <nav>
-      <a href="#">Home</a>
+      <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="#">Events</a>
       <a href="#">Contact</a>
@@ -88,14 +103,28 @@
   </header>
 
   <main>
-    <h1>Welcome to Open Court Athletic Association</h1>
-    <p>
-      Open Court Athletic Association is dedicated to promoting athletic
-      excellence and community engagement through sports programs and events.
-    </p>
-    <p>
-      Stay tuned for upcoming events, schedules, and news from our association.
-    </p>
+    <h1>About Us</h1>
+    <div class="about-section">
+      <img
+        class="about-photo"
+        src="https://image.education.trccompanies.com/EloquaImages/clients/GNA/%7Bec3bfe3b-9658-432c-939b-4491c6e5ba6a%7D_OOCA_Logo_%281%29.png"
+        alt="Open Court Athletic Association"
+      />
+      <div class="about-text">
+        <p>
+          Open Court Athletic Association is dedicated to promoting athletic
+          excellence and community engagement through sports programs and events.
+        </p>
+        <p>
+          Our mission is to provide accessible, high-quality athletic
+          opportunities for individuals of all ages and skill levels.
+        </p>
+        <p>
+          We believe in the power of sport to build character, foster teamwork,
+          and strengthen communities.
+        </p>
+      </div>
+    </div>
   </main>
 
   <footer>
