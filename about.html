@@ -56,6 +56,12 @@
       margin-bottom: 24px;
     }
 
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 16px;
+      margin-top: 40px;
+    }
+
     .about-section {
       display: flex;
       gap: 40px;
@@ -76,6 +82,27 @@
       margin-bottom: 16px;
     }
 
+    .coach-section {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+
+    .coach-section img.coach-photo {
+      max-width: 280px;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .coach-text p {
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
     footer {
       text-align: center;
       padding: 24px;
@@ -84,6 +111,10 @@
       border-top: 1px solid #ddd;
       font-size: 0.875rem;
       color: #666;
+    }
+
+    footer a {
+      color: #0056b3;
     }
   </style>
 </head>
@@ -97,6 +128,7 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
+      <a href="clinics.html">Clinics</a>
       <a href="#">Events</a>
       <a href="#">Contact</a>
     </nav>
@@ -125,10 +157,19 @@
         </p>
       </div>
     </div>
+
+    <h2>Meet the Coach</h2>
+    <div class="coach-section">
+      <div class="coach-text">
+        <p>
+          Patrick played at Windward High School, where he earned multiple Team MVP awards, League MVP honors, three All-League selections, and an All-CIF selection. He went on to compete with SMBC, winning a Junior Olympics gold medal and earning First Team All-American recognition.
+        </p>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2026 Open Court Athletic Association. All rights reserved.</p>
+    <p>&copy; 2026 Open Court Athletic Association. All rights reserved. | <a href="mailto:opencourtathleticassocation@gmail.com">opencourtathleticassocation@gmail.com</a></p>
   </footer>
 </body>
 </html>
